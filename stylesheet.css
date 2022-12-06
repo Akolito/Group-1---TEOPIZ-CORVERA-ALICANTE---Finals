@@ -45,3 +45,15 @@ button:hover{
 	border: 2px solid #D4A017;
 	cursor: pointer;
 }
+.service{
+	background: #FFFFFF;
+	width: 100%;
+	padding: 100px 0px;
+}
+.title h2{
+	color: black;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
