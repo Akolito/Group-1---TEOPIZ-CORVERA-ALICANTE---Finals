@@ -106,10 +106,11 @@ h5{
 	cursor: pointer;
 }
 /* Footer */
-#footer{
+.footer{
 	background-color: #FFFFFF;
-	text-align: center;
 	padding: 20px 35px;
-	color: #D4A017;
 }
-#Address
+.Address{
+	color: #D4A017;
+	text-align: center;
+}
