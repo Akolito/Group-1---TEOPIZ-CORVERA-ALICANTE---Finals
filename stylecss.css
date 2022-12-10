@@ -16,7 +16,7 @@ header{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	background: transparent;
+	background: #FFFFFF;
 	padding: 25px 7%;
 }
 .logo img{
