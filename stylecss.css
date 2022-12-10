@@ -45,14 +45,14 @@ header{
 .navbar a::after{
 	content: '';
 	position: absolute;
-	width: 100%;
+	width: 0;
 	height: 2px;
 	background: #D4A017;
 	left: 0;
 	bottom: -4px;
 	transition: ease .42s;
 }
-.navbar a:hover:after{
+.navbar a:hover::after{
 	width: 100%;
 }
 #menu-icon{
