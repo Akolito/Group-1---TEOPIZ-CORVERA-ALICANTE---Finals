@@ -5,22 +5,6 @@
 	font-family: 'Josefin Sans', sans-serif;
 	list-style: none;
 	text-decoration: none;
-	scroll-behavior: smooth;
-	scroll-padding-top: 3.5rem;
-}
-root{
-	--bg-color: #FFFFFF;
-	--secound-bg-color: #FFFFFF;
-	--text-color: #000000;
-	--secound-color: #D4A017;
-	--main-color: #D4A017;
-	--big-font: 5.3rem;
-	--h2-font: 4.2rem;
-	--p-font: 1.1rem;
-}
-body{
-	backgrounds: var(--bg-color);
-	color: var(--text-color);
 }
 /* Navbar */
 header{
@@ -33,14 +17,12 @@ header{
 	align-items: center;
 	justify-content: space-between;
 	background: transparent;
-	padding: 25px 15%;
-	transition-duration: .3s;
+	padding: 25px 7%;
 }
-.logo{
-	color: var(--text-color);
-	font-size: 30px;
-	font-weight: bold;
-	letter-spacing: 1px;
+.logo img{
+	max-width: 100%;
+	width: 120px;
+	height: auto;
 }
 .navbar{
 	display: flex;
@@ -49,35 +31,35 @@ header{
 	position: relative;
 }
 .navbar a{
-	color: ;
-	font-weight: ;
+	color: #000000;
+	font-weight: 500;
 	font-size: 1rem;
 	padding: 10px 20px;
 }
 .navbar a{
-	color: var(--text-color);
-	font-weight: bold;
+	color: #000000;
+	font-weight: 500;
 	font-size: 1rem;
 	padding: 10px 20px;
 }
 .navbar a::after{
 	content: '';
 	position: absolute;
-	width: 0;
+	width: 100%;
 	height: 2px;
-	background: var(--main-color);
+	background: #D4A017;
 	left: 0;
 	bottom: -4px;
-	transition: ease .40s;
+	transition: ease .42s;
 }
 .navbar a:hover:after{
 	width: 100%;
 }
 #menu-icon{
-	font-size: 32px;
-	color: var(--text-color);
-	z-index: 10001;
+	font-size: 30px;
+	color: #000000;
 	cursor: pointer;
+	z-index: 10001;
 	display: none;
 }
 /* Image */
