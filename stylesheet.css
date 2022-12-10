@@ -22,7 +22,7 @@ body{
 	backgrounds: var(--bg-color);
 	color: var(--text-color);
 }
-<!-- Navbar -->
+/* Navbar */
 header{
 	position: fixed;
 	width: 100%;
@@ -80,7 +80,7 @@ header{
 	cursor: pointer;
 	display: none;
 }
-<!-- Image -->
+/* Image */
 .AboutMenu{
 	width: 100%;
 	padding: 78px 0px;
