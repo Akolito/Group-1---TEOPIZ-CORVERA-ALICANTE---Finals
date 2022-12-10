@@ -1,3 +1,86 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+	list-style: none;
+	text-decoration: none;
+	scroll-behavior: smooth;
+	scroll-padding-top: 3.5rem;
+}
+root{
+	--bg-color: #FFFFFF;
+	--secound-bg-color: #FFFFFF;
+	--text-color: #000000;
+	--secound-color: #D4A017;
+	--main-color: #D4A017;
+	--big-font: 5.3rem;
+	--h2-font: 4.2rem;
+	--p-font: 1.1rem;
+}
+body{
+	backgrounds: var(--bg-color);
+	color: var(--text-color);
+}
+<!-- Navbar -->
+header{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	right: 0;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: transparent;
+	padding: 25px 15%;
+	transition-duration: .3s;
+}
+.logo{
+	color: var(--text-color);
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.navbar{
+	display: flex;
+}
+.navbar li{
+	position: relative;
+}
+.navbar a{
+	color: ;
+	font-weight: ;
+	font-size: 1rem;
+	padding: 10px 20px;
+}
+.navbar a{
+	color: var(--text-color);
+	font-weight: bold;
+	font-size: 1rem;
+	padding: 10px 20px;
+}
+.navbar a::after{
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 2px;
+	background: var(--main-color);
+	left: 0;
+	bottom: -4px;
+	transition: ease .40s;
+}
+.navbar a:hover:after{
+	width: 100%;
+}
+#menu-icon{
+	font-size: 32px;
+	color: var(--text-color);
+	z-index: 10001;
+	cursor: pointer;
+	display: none;
+}
+<!-- Image -->
 .AboutMenu{
 	width: 100%;
 	padding: 78px 0px;
