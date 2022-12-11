@@ -62,8 +62,6 @@ header{
 	z-index: 10001;
 	display: none;
 }
-/* Navbar Dropdown */
-
 /* Start Home */
 section{
 	padding: 120px 15%;
@@ -187,7 +185,7 @@ h5{
 	border: 2px solid #D4A017;
 	cursor: pointer;
 }
-<!-- Footer -->
+/* Footer */
 .footer{
 	background-color: #FFFFFF;
 	padding: 20px 35px;
