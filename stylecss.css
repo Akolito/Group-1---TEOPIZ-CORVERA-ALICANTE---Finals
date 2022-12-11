@@ -57,7 +57,7 @@ header{
 	position: absolute;
 	width: 0;
 	height: 2px;
-	background: var(--main-color);
+	background: #f9004d;
 	left: 0;
 	bottom: -4px;
 	transition: ease .40s;
@@ -67,7 +67,7 @@ header{
 }
 #menu-icon{
 	font-size: 32px;
-	color: var(--text-color);
+	color: #ffffff;
 	z-index: 10001;
 	cursor: pointer;
 	display: none;
@@ -77,8 +77,8 @@ header{
 	height: 40px;
 	display: inline-block;
 	line-height: 42px;
-	background: var(--main-color);
-	color: var(--text-color);
+	background: #f9004d;
+	color: #ffffff;
 	border: none;
 	border-radius: 30px;
 	font-size: 14px;
@@ -103,14 +103,14 @@ section{
 	background-position: center;
 	position: relative;
 	display: grid;
-	grid-template-columns: repeat (1, 1fr);
+	grid-template-columns: repeat(1, 1fr);
 	align-items: center;
 }
 /* End Hero*/
 
 /* Footer */
 .footer{
-	background-color: #FFFFFF;
+	background-color: #ffffff;
 	padding: 20px 35px;
 	color: #D4A017;
 	text-align: center;
