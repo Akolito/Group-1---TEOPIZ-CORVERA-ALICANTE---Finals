@@ -7,8 +7,7 @@
 	<title>Home</title>
 	<link rel="stylesheet" type="text/css" href="stylecss.css">
 	
-	<link rel="stylesheet"
-	href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+	<link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
 	
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,15 +16,29 @@
 <body>
 <!-- Navbar -->
 <header>
-	<a href="#" class="logo"><img src="Crown.png"></a>
-	<div class="bx bx-menu" id="menu-icon"></div>
-	<ul class="navbar">
-		<li><a href="#">Home</a></li>
-		<li><a href="#">Reservations</a></li>
-		<li><a href="#">Menus</a></li>
-		<li><a href="#">Events</a></li>
-		<li><a href="#">Contact</a></li>
-	</ul>
+	<div class="container">
+		<nav>
+			<div class="menu-icons">
+				<i class="icon ion-md-menu"></i>
+				<i class="icon ion-md-close"></i>
+			</div>
+			<a href="index.html" class="logo">
+				<i class="icon ion-md-restaurant"></i>
+			</a>
+			<ul class="nav-list">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Menu<i class="icon ion-md-restaurant"></i></a></li>
+					<ul class="sub-menu">
+						<li><a href="#">Appetizer</a></li>
+						<li><a href="#">Main Dish</a></li>
+						<li><a href="#">Dessert</a></li>
+					</ul>
+				<li><a href="#">Events</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Book a Table</a></li>
+			</ul>
+		</nav>
+	</div>
 </header>
 <!-- Start Home -->
 <section class="home">
