@@ -1,4 +1,4 @@
-/* Navbar */
+/* Nav CSS */
 *,
 *::before,
 *::after{
@@ -137,101 +137,8 @@ li.move-right{
 	margin: auto 0 auto auto;
 	line-height: initial;
 }
+/* End Nav CSS */
 
-/* Start Home */
-section{
-	padding: 120px 15%;
-}
-.home{
-	height: 100vh;
-	width: 100%;
-	background: url(PicOfResto.jpeg);
-	background-size: cover;
-	background-position: center;
-	position: relative;
-	display: grid;
-	grid-template-columns: repeat (1, 1fr);
-	align-items: center;
-}
-/* Image */
-.AboutMenu{
-	width: 100%;
-	padding: 78px 0px;
-	background-color: #FFFFFF;
-}
-.AboutMenu img{
-	height: auto;
-	width: 420px;
-}
-.AboutMenu-Text{
-	width: 550px;
-}
-.main{
-	width: 1130px;
-	max-width: 95%;
-	margin: 0 auto;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-}
-.AboutMenu-Text h1{
-	color: #D4A017;
-	font-size: 80px;
-	text-transform: capitalize;
-	margin-bottom: 20px;
-}
-.AboutMenu-Text p{
-	letter-spacing: 1px;
-	line-height: 28px;
-	font-size: 18px;
-	margin-bottom: 45px;
-}
-.service{
-	background: #FFFFFF;
-	width: 100%;
-	padding: 100px 0px;
-}
-.title h2{
-	color: #D4A017;
-	font-size: 75px;
-	width: 1130px;
-	margin: 30px auto;
-	text-align: center;
-}
-.box{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 400px;
-}
-.card{
-	height: 365px;
-	width: 335px;
-	padding: 20px 35px;
-	background: #FFFFFF;
-	border-radius: 20px;
-	margin: 15px;
-	position: relative;
-	overflow: hidden;
-	text-align: center;
-}
-.card i{
-	font-size: 50px;
-	display: block;
-	text-align: center;
-	margin: 25px 0px;
-	color: #FFFFFF;
-}
-h5{
-	color: #D4A017;
-	font-size: 23px;
-	margin-bottom: 15px;
-}
-.pra p{
-	font-size: 16px;
-	line-height: 27px;
-	margin-bottom: 25px;
-}
 /* Footer */
 .footer{
 	background-color: #FFFFFF;
@@ -243,3 +150,4 @@ h5{
 	color: #D4A017;
 	text-align: center;
 }
+/* End Footer */
