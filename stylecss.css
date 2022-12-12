@@ -91,7 +91,7 @@ header{
 }
 /* End Nav CSS */
 
-/* Hero */
+/* Home */
 section{
 	padding: 120px 15%;
 }
@@ -105,6 +105,9 @@ section{
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
 	align-items: center;
+}
+span{
+	color: #D4A017;
 }
 /* End Hero*/
 
