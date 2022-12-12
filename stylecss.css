@@ -124,7 +124,7 @@ header.sticky{
 
 /* About */
 .about{
-	background: #191919;
+	background: #FFFFFF;
 	display: grid;
 	grid-template-columns: repeat(2, 2fr);
 	align-center: center;
@@ -160,7 +160,7 @@ header.sticky{
 	border: 2px solid transparent;
 	font-weight: 600;
 	padding: 13px 30px;
-	border-readius: 30px;
+	border-radius: 30px;
 	transition: ease .35s;
 }
 .btn:hover{
@@ -173,7 +173,7 @@ header.sticky{
 /* Footer */
 .footer{
 	text-align: center;
-	background-color: #191919;
+	background-color: #FFFFFF;
 	padding: 34px;
 }
 .footer p{
@@ -182,6 +182,7 @@ header.sticky{
 	letter-spacing: 1px;
 }
 /* End Footer */
+
 @media (max-width: 1270px){
 	header{
 		padding: 10px 4%;
@@ -216,7 +217,7 @@ header.sticky{
 		left: 0;
 		right: 0;
 		flex-direction: column;
-		background: #101010;
+		background: #FFFFFF;
 		text-align: left;
 		transition: all .30s;
 	}
