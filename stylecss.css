@@ -8,7 +8,7 @@
 	scroll-behavior: smooth;
 	scroll-padding-top: 3.5rem;
 }
-root{
+:root{
 	--bg-color: #101010;
 	--secound-bg-color: #191919;
 	--text-color: #FFFFFF;
@@ -172,13 +172,79 @@ header.sticky{
 
 /* Footer */
 .footer{
-	background-color: #FFFFFF;
-	padding: 20px 35px;
-	color: #D4A017;
 	text-align: center;
+	background-color: #191919;
+	padding: 34px;
 }
-.address{
-	color: #D4A017;
-	text-align: center;
+.footer p{
+	font-size: 17px;
+	color: #c6c9d8bf;
+	letter-spacing: 1px;
 }
 /* End Footer */
+@media (max-width: 1270px){
+	header{
+		padding: 10px 4%;
+		transition: .2s;
+	}
+	header.sticky{
+		padding: 10px 4%;
+		transition: .2s;
+	}
+	section{
+		padding: 80px 4%;
+		transition: .2s;
+	}
+	:root{
+		--big-font: 4.8rem;
+		--h2-font: 3.8rem;
+		--p-font: 1rem;
+		transition: .2s
+	}
+}
+
+@media (max-width: 990px){
+	.home{
+		height: 85vh;
+	}
+	#menu-icon{
+		display: initial;
+	}
+	.navbar{
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		flex-direction: column;
+		background: #101010;
+		text-align: left;
+		transition: all .30s;
+	}
+	.navbar a{
+		display: block;
+		padding: 1.1rem;
+		margin: 1.3rem;
+		border-left: 2px solid #FFFFFF;
+	}
+	.navbar a:hover{
+		background: #D4A017;
+	}
+	.navbar a::after{
+		display: none;
+	}
+	.navbar.active{
+		top: 100%;
+	}
+	.about{
+		grid-template-columns: 1fr;
+	}
+	.about-img{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.about-img img{
+		max-width: 100%;
+		width: 700px;
+		height: auto;
+	}
+}
