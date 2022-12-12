@@ -140,6 +140,34 @@ header.sticky{
 	font-size: 4.2rem;
 	margin-bottom: 20px;
 }
+.about-text h5{
+	font-size: 28px;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+}
+.about-text p{
+	color: #c6c9d8bf;
+	letter-spacing: 1px;
+	line-height: 28px;
+	max-width: 590px;
+	font-size: 1.1rem;
+	margin-bottom: 45px;
+}
+.btn{
+	display: inline-block;
+	background: #D4A017;
+	color: #FFFFFF;
+	border: 2px solid transparent;
+	font-weight: 600;
+	padding: 13px 30px;
+	border-readius: 30px;
+	transition: ease .35s;
+}
+.btn:hover{
+	transform: translateY(-8px);
+	border: 2px solid #D4A017;
+	background: transparent;
+}
 /* End About */
 
 /* Footer */
