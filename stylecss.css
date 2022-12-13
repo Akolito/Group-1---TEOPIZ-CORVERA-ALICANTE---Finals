@@ -190,8 +190,9 @@ span{
 	grid-gap: 2rem;
 	align-items: center;
 	margin-top: 4.5rem;
+	cursor: pointer;
 }
-.box{
+.row{
 	max-width: 100%;
 	width: 500px;
 	height: auto;
