@@ -115,7 +115,7 @@ span{
 	background: #FFFFFF;
 	display: grid;
 	grid-template-columns: repeat(2, 2fr);
-	align-center: center;
+	align-items: center;
 	grid-gap: 2rem;
 }
 .about-img img{
@@ -139,7 +139,7 @@ span{
 	line-height: 28px;
 	max-width: 590px;
 	font-size: 1.1rem;
-	margin-bottom: 45px;
+	margin-bottom: 25px;
 }
 .btn{
 	display: inline-block;
