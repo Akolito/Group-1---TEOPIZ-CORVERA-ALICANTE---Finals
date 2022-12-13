@@ -33,11 +33,6 @@ header{
 	padding: 25px 15%;
 	transition-duration: .3s;
 }
-.logo img{
-	max-width: 100%;
-	width: 25px;
-	height: auto;
-}
 .navbar{
 	display: flex;
 	
