@@ -191,12 +191,13 @@ span{
 	align-items: center;
 	margin-top: 4.5rem;
 }
-.row{
-	background: #FFFFFF;
-	padding: 55px 30px;
+.box{
+	max-width: 100%;
+	width: 500px;
+	height: auto;
 	border-radius: 10px;
-	cursor: pointer;
-	transition: all .35s;
+	margin-bottom: 20px;
+	transition: all .30s;
 }
 .row i{
 	color: #D7942E;
