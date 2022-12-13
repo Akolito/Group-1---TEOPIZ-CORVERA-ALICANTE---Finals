@@ -89,6 +89,17 @@ header{
 .h-btn:hover{
 	transform: translateY(-5px);
 }
+header.sticky{
+	padding: 12px 15%;
+	background: #FFDBAC;
+}
+.sticky .navbar a::after{
+	background: #FFFFFF;
+}
+.sticky .h-btn{
+	background: #FFFFFF;
+	color: #FFDBAC;
+}
 /* End Nav CSS */
 
 /* Home */
@@ -110,20 +121,6 @@ span{
 	color: #D4A017;
 }
 /* End Hero*/
-
-/* JS */
-header.sticky{
-	padding: 12px 15%;
-	background: #D4A017;
-}
-.sticky .navbar a::after{
-	background: #FFFFFF;
-}
-.sticky .h-btn{
-	background: #FFFFFF;
-	color: #000000;
-}
-/* End JS */
 
 /* About */
 .about{
