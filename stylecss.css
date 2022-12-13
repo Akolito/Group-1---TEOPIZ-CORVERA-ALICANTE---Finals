@@ -173,7 +173,7 @@ span{
 
 /* Services */
 .services{
-	background: #FFDBAC;
+	background: #1C2E4A;
 }
 .center{
 	text-align: center;
@@ -183,7 +183,7 @@ span{
 	margin-bottom: 15px;
 }
 .center p{
-	color: #c6c9d8bf;
+	color: #FFFFFF;
 	letter-spacing: 1px;
 	line-height: 28px;
 	font-size: 1.1rem;
@@ -196,25 +196,25 @@ span{
 	margin-top: 4.5rem;
 }
 .row{
-	background: #191919;
+	background: #FFFFFF;
 	padding: 55px 30px;
 	border-radius: 10px;
 	cursor: pointer;
 	transition: all .35s;
 }
 .row i{
-	color: #D4A017;
+	color: #D7942E;
 	margin-bottom: 20px;
 	font-size: 2.7rem;
 }
 .row h3{
-	color: #FFFFFF;
+	color: #191919;
 	font-size: 22px;
 	font-weight: 700;
 	margin-bottom: 15px;
 }
 .row p{
-	color: #c6c9d8bf;
+	color: #000000;
 	line-height: 30px;
 	font-size: 1.1rem;
 }
@@ -278,10 +278,11 @@ span{
 		display: block;
 		padding: 1.1rem;
 		margin: 1.3rem;
-		border-left: 2px solid #FFFFFF;
+		border-left: 2px solid #D7942E;
 	}
 	.navbar a:hover{
-		background: #D4A017;
+		background: #D7942E;
+		color: #FFFFFF;
 	}
 	.navbar a::after{
 		display: none;
