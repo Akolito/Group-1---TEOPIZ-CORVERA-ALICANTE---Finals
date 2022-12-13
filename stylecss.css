@@ -186,14 +186,14 @@ span{
 }
 .service-content{
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+	grid-template-columns: repeat(auto-fit, minmax(370px, auto));
 	grid-gap: 2rem;
 	align-items: center;
 	margin-top: 4.5rem;
 }
 .row{
 	background: #FFFFFF;
-	padding: 30px 30px;
+	padding: 55px 30px;
 	border-radius: 10px;
 	cursor: pointer;
 	transition: all .35s;
