@@ -8,15 +8,9 @@
 	scroll-behavior: smooth;
 	scroll-padding-top: 3.5rem;
 }
-:root{
-	--bg-color: #101010;
-	--secound-bg-color: #191919;
-	--text-color: #FFFFFF;
-	--secound-color: #c6c9d8bf;
-	--main-color: #D4A017;
-	--big-font: 5.3rem;
-	--h2-font: 4.2rem;
-	--p-font: 1.1rem;
+body{
+	background: #FFFFFF;
+	color: #D7942E;
 }
 
 /* Nav CSS */
@@ -35,7 +29,6 @@ header{
 }
 .navbar{
 	display: flex;
-	
 }
 .navbar li{
 	position: relative;
@@ -62,7 +55,7 @@ header{
 }
 #menu-icon{
 	font-size: 32px;
-	color: #000000;
+	color: #D7942E;
 	z-index: 10001;
 	cursor: pointer;
 	display: none;
@@ -160,7 +153,7 @@ span{
 }
 .btn:hover{
 	transform: translateY(-8px);
-	border: 2px solid #D4A017;
+	border: 2px solid #D7942E;
 	background: #D7942E;
 	color: #FFFFFF;
 }
@@ -170,55 +163,30 @@ span{
 .services{
 	background: #1C2E4A;
 }
-.center{
-	text-align: center;
-}
-.center h2{
-	color: #FFFFFF;
-	font-size: 4.2rem;
-	margin-bottom: 15px;
-}
-.center p{
-	color: #FFFFFF;
-	letter-spacing: 1px;
-	line-height: 28px;
-	font-size: 1.1rem;
-}
 .service-content{
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(370px, auto));
-	grid-gap: 2rem;
+	grid-template-columns: repeat(auto-fit, minmax(330px, auto));
 	align-items: center;
-	margin-top: 4.5rem;
-	cursor: pointer;
+	text-align: center;
+	gap: 2rem;
+	margin-top: 5rem;
 }
 .row{
-	background-color: #FFFFFF;
-	max-width: 100%;
-	width: 500px;
-	height: auto;
-	border-radius: 10px;
-	margin-bottom: 20px;
-	transition: all .30s;
-}
-.row i{
-	color: #D7942E;
-	margin-bottom: 20px;
-	font-size: 2.7rem;
+	background: #1C2E4A;
+	padding: 55px 30px;
+	border-radius: 0.5rem;
+	transition: all .35s;
 }
 .row h3{
-	color: #000000;
+	color: #D7942E;
 	font-size: 22px;
 	font-weight: 700;
-	margin-bottom: 15px;
+	margin: 15px;
 }
 .row p{
-	color: #000000;
+	color: #FFFFFF;
 	line-height: 30px;
 	font-size: 1.1rem;
-}
-.row:hover{
-	transform: translateY(-8px);
 }
 /* End Services */
 
@@ -237,7 +205,7 @@ span{
 
 @media (max-width: 1270px){
 	header{
-		padding: 10px 4%;
+		padding: 18px 4%;
 		transition: .2s;
 	}
 	header.sticky{
@@ -247,12 +215,6 @@ span{
 	section{
 		padding: 80px 4%;
 		transition: .2s;
-	}
-	:root{
-		--big-font: 4.8rem;
-		--h2-font: 3.8rem;
-		--p-font: 1rem;
-		transition: .2s
 	}
 }
 
