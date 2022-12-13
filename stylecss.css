@@ -166,8 +166,8 @@ span{
 .btn:hover{
 	transform: translateY(-8px);
 	border: 2px solid #D4A017;
-	background: transparent;
-	color: #D7942E;
+	background: #D7942E;
+	color: #FFFFFF;
 }
 /* End About */
 
