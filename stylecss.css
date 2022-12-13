@@ -47,7 +47,7 @@ header{
 	
 }
 .navbar a{
-	color: #000000;
+	color: #D7942E;
 	font-weight: bold;
 	font-size: 1rem;
 	padding: 10px 20px;
@@ -57,7 +57,7 @@ header{
 	position: absolute;
 	width: 0;
 	height: 2px;
-	background: #FFDBAC;
+	background: #FFFFFF;
 	left: 0;
 	bottom: -4px;
 	transition: ease .40s;
@@ -67,7 +67,7 @@ header{
 }
 #menu-icon{
 	font-size: 32px;
-	color: #FFFFFF;
+	color: #000000;
 	z-index: 10001;
 	cursor: pointer;
 	display: none;
@@ -77,7 +77,7 @@ header{
 	height: 40px;
 	display: inline-block;
 	line-height: 42px;
-	background: #D4A017;
+	background: #D7942E;
 	color: #FFFFFF;
 	border: none;
 	border-radius: 30px;
@@ -91,14 +91,14 @@ header{
 }
 header.sticky{
 	padding: 12px 15%;
-	background: #FFDBAC;
+	background: #D7942E;
 }
 .sticky .navbar a::after{
 	background: #FFFFFF;
 }
 .sticky .h-btn{
 	background: #FFFFFF;
-	color: #FFDBAC;
+	color: #D7942E;
 }
 /* End Nav CSS */
 
