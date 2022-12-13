@@ -145,7 +145,6 @@ span{
 	display: inline-block;
 	background: #D7942E;
 	color: #FFFFFF;
-	border: 2px solid transparent;
 	font-weight: 600;
 	padding: 13px 30px;
 	border-radius: 30px;
@@ -153,9 +152,6 @@ span{
 }
 .btn:hover{
 	transform: translateY(-8px);
-	border: 2px solid #D7942E;
-	background: #D7942E;
-	color: #FFFFFF;
 }
 /* End About */
 
