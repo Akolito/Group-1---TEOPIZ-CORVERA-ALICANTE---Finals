@@ -161,7 +161,7 @@ span{
 	border-radius: 10px;
 }
 .about-text h2{
-	font-size: 4.2rem;
+	font-size: 4.1rem;
 	margin-bottom: 20px;
 }
 .about-text h5{
@@ -170,24 +170,26 @@ span{
 	letter-spacing: 2px;
 }
 .about-text p{
-	color: #000000;
+	color: #000;
 	letter-spacing: 1px;
 	line-height: 28px;
 	max-width: 590px;
-	font-size: 1.1rem;
+	font-size: 1.4rem;
 	margin-bottom: 25px;
 }
 .about-btn{
 	display: inline-block;
 	background: #D7942E;
-	color: #FFFFFF;
+	color: #FFF;
+	border: 2px solid transparent;
 	font-weight: 600;
 	padding: 13px 30px;
 	border-radius: 30px;
 	transition: ease .35s;
 }
 .about-btn:hover{
-	transform: translateY(-8px);
+	color: #D7942E;
+	background-color: rgba(0, 0, 0, .2);
 }
 /* End About */
 
@@ -211,14 +213,14 @@ span{
 }
 .row h3{
 	color: #D7942E;
-	font-size: 22px;
+	font-size: 2rem;
 	font-weight: 700;
 	margin: 15px;
 }
 .row p{
 	color: #FFFFFF;
 	line-height: 30px;
-	font-size: 1.1rem;
+	font-size: 1.4rem;
 }
 /* End Services */
 
@@ -229,7 +231,7 @@ span{
 	padding: 34px;
 }
 .footer p{
-	font-size: 17px;
+	font-size: 1.4rem;
 	color: #D7942E;
 	letter-spacing: 1px;
 }
