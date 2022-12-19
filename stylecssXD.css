@@ -227,12 +227,12 @@ span{
 /* Start Footer */
 .footer{
 	text-align: center;
-	background-color: #FFFFFF;
+	background-color: #D7942E;
 	padding: 34px;
 }
 .footer p{
 	font-size: 1.4rem;
-	color: #D7942E;
+	color: #FFF;
 	letter-spacing: 1px;
 }
 /* End Footer */
