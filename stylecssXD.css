@@ -181,7 +181,7 @@ span{
 	display: inline-block;
 	background: #D7942E;
 	color: #FFF;
-	border: 2px solid transparent;
+	border: 2px solid #D7942E;
 	font-weight: 600;
 	padding: 13px 30px;
 	border-radius: 30px;
