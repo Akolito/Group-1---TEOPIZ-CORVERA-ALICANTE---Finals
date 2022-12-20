@@ -208,7 +208,7 @@ span{
 .row{
 	background: #1C2E4A;
 	padding: 55px 30px;
-	border-radius: 0.5rem;
+	border-radius: 10px;
 	transition: all .35s;
 }
 .row h3{
